@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크리스천 크루즈 비전 리포트 - 꿈의 방주</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Noto Serif KR & Noto Sans KR) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans KR', 'sans-serif'],
+                        serif: ['Noto Serif KR', 'serif'],
+                    },
+                    colors: {
+                        ocean: {
+                            50: '#f0f7fa',
+                            100: '#e0eff5',
+                            500: '#007791',
+                            800: '#0f2c3d',
+                            900: '#071621',
+                        },
+                        gold: {
+                            100: '#fdf6e2',
+                            500: '#c5a880',
+                            600: '#b09063',
+                            700: '#8c6d43',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Print Styles */
+        @media print {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .page-break {
+                page-break-before: always;
+                break-before: page;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+            }
+            .print-border {
+                border: 1px solid #e2e8f0 !important;
+            }
+            @page {
+                size: A4;
+                margin: 15mm 15mm 15mm 15mm;
+            }
+        }
+        
+        /* Custom scrollbar for preview */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c5a880;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b09063;
+        }
+
+        /* Animated waves for decoration */
+        .wave-bg {
+            background: linear-gradient(180deg, rgba(15, 44, 61, 0.95) 0%, rgba(7, 22, 33, 0.98) 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 antialiased min-h-screen flex flex-col justify-start py-8 sm:py-12 space-y-10">
+
+    <!-- MAIN PRINTABLE CONTAINER (A4 Proportion-focused) -->
+    <main class="w-full flex items-center justify-center p-0 px-4 sm:px-6">
+        <!-- PAGE 1: COVER & FOREWORD (A4) -->
+        <article class="w-full max-w-[210mm] bg-white text-slate-900 shadow-2xl mx-auto print-shadow-none print-border flex flex-col justify-between overflow-hidden relative" style="min-height: 297mm; padding: 25mm 20mm 20mm 20mm;">
+            
+            <!-- Cover Top Header Decorative -->
+            <div class="flex justify-between items-center border-b border-gold-500/20 pb-4 mb-8">
+                <span class="text-xs tracking-[0.2em] text-gold-600 font-semibold">CHRISTIAN CRUISE VISION PORTFOLIO</span>
+                <span class="text-xs text-slate-400 font-serif">A Visionary Boat of Dreams</span>
+            </div>
+
+            <!-- Main Content Container -->
+            <div class="flex-grow flex flex-col justify-between">
+                <!-- Core Concept & Title Section -->
+                <div class="space-y-6">
+                    <div class="inline-block border border-gold-500 px-3 py-1 rounded text-[11px] tracking-widest text-gold-700 font-bold uppercase">
+                        선상 위의 예배, 회복, 그리고 새로운 사명
+                    </div>
+                    
+                    <h1 class="font-serif text-3xl sm:text-5xl font-black leading-tight text-ocean-900 tracking-tight">
+                        크리스천 크루즈의<br>
+                        <span class="text-gold-600">꿈을 꾸다</span>
+                    </h1>
+                    
+                    <div class="w-20 h-[3px] bg-gold-500"></div>
+                    
+                    <p class="font-serif italic text-base sm:text-lg text-slate-600 leading-relaxed pl-4 border-l-2 border-slate-300">
+                        "꿈은 혼자 꾸면 상상입니다. 그러나 두세 사람이 함께 꾸기 시작하면 현실이 됩니다. 그리고 하나님이 함께하시면, 그 꿈은 반드시 시대를 움직이는 역사가 됩니다."
+                    </p>
+                </div>
+
+                <!-- Section 1: Intro (The Horizon of New Dreams) -->
+                <div class="my-8 space-y-4">
+                    <h3 class="font-serif font-bold text-lg text-ocean-900 flex items-center">
+                        <span class="w-1.5 h-1.5 bg-gold-500 rounded-full mr-2"></span>
+                        새로운 꿈의 문이 열리다
+                    </h3>
+                    <p class="text-sm text-slate-700 leading-relaxed text-justify font-sans">
+                        이번 지중해 크루즈 여행은 단순한 관광이 아니었습니다. 내 안에 전혀 새로운 꿈의 문이 열리는 시간이었습니다. 크루즈는 바다 위를 떠다니는 거대한 휴양도시입니다. 호텔을 옮길 필요도 없이 먹고, 자고, 쉬고, 즐기며 최고의 자유와 안식을 누리는 인간 문명의 놀라운 창조물입니다. 사람들은 웃고 춤추고 서로 친구가 되며, 바다 위에서 새로운 삶의 에너지를 얻습니다.
+                    </p>
+                    <p class="text-sm text-slate-700 leading-relaxed text-justify font-sans">
+                        그런데 나는 그 화려한 배 위에서 이런 생각이 들었습니다. <span class="font-semibold text-ocean-900">“이 공간이 하나님께 드려진다면 얼마나 놀라운 일이 일어날까?”</span>
+                    </p>
+                </div>
+
+                <!-- 4 Core Pillars (Visual Infographic Element) -->
+                <div class="grid grid-cols-2 gap-4 my-4">
+                    <div class="bg-ocean-50 p-4 rounded-lg border-l-4 border-gold-500">
+                        <div class="text-gold-600 text-lg mb-1 font-bold">01</div>
+                        <h4 class="font-serif font-bold text-sm text-ocean-900 mb-1">바다 위 성소 (Sanctuary)</h4>
+                        <p class="text-[11px] text-slate-600 leading-normal">아침에는 바다를 보며 예배하고, 밤에는 별빛 아래 찬양과 기도로 하루를 닫는 공간.</p>
+                    </div>
+                    
+                    <div class="bg-ocean-50 p-4 rounded-lg border-l-4 border-gold-500">
+                        <div class="text-gold-600 text-lg mb-1 font-bold">02</div>
+                        <h4 class="font-serif font-bold text-sm text-ocean-900 mb-1">영적 충전 (Transformation)</h4>
+                        <p class="text-[11px] text-slate-600 leading-normal">대극장에서 펼쳐지는 성령 충만한 워십, 세미나를 통한 사명과 영혼의 각성.</p>
+                    </div>
+
+                    <div class="bg-ocean-50 p-4 rounded-lg border-l-4 border-gold-500">
+                        <div class="text-gold-600 text-lg mb-1 font-bold">03</div>
+                        <h4 class="font-serif font-bold text-sm text-ocean-900 mb-1">살아있는 기항지 (Pilgrimage)</h4>
+                        <p class="text-[11px] text-slate-600 leading-normal">단순한 유적 관람을 넘어 살아 숨 쉬고 부흥하는 현지 교회를 방문하여 DNA 습득.</p>
+                    </div>
+
+                    <div class="bg-ocean-50 p-4 rounded-lg border-l-4 border-gold-500">
+                        <div class="text-gold-600 text-lg mb-1 font-bold">04</div>
+                        <h4 class="font-serif font-bold text-sm text-ocean-900 mb-1">참된 영적 가족 (Koinonia)</h4>
+                        <p class="text-[11px] text-slate-600 leading-normal">일주일 동안 한 공간에서 함께 먹고 대화하며 불신자들이 자연스레 예수를 영접하는 공동체.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 1 Footer -->
+            <div class="border-t border-slate-200 pt-4 mt-6 flex justify-between items-center text-[10px] text-slate-400">
+                <span>VISION PORTFOLIO : CHAPTER 1</span>
+                <span>Page 1 / 2</span>
+            </div>
+        </article>
+    </main>
+
+    <!-- PAGE 2: MAIN STRATEGY & VISION CALL (A4) -->
+    <main class="w-full flex items-center justify-center p-0 px-4 sm:px-6 page-break">
+        <article class="w-full max-w-[210mm] bg-white text-slate-900 shadow-2xl mx-auto print-shadow-none print-border flex flex-col justify-between overflow-hidden relative" style="min-height: 297mm; padding: 25mm 20mm 20mm 20mm;">
+            
+            <!-- Cover Top Header Decorative -->
+            <div class="flex justify-between items-center border-b border-gold-500/20 pb-4 mb-8">
+                <span class="text-xs tracking-[0.2em] text-gold-600 font-semibold">CHRISTIAN CRUISE VISION PORTFOLIO</span>
+                <span class="text-xs text-slate-400 font-serif">A Visionary Boat of Dreams</span>
+            </div>
+
+            <div class="flex-grow flex flex-col justify-between">
+                <!-- Section 2: Core Vision Body -->
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-3">
+                        <span class="bg-ocean-900 text-gold-100 text-xs font-bold px-2 py-1 rounded">비전 전개</span>
+                        <h2 class="font-serif text-2xl font-bold text-ocean-900">영혼을 새롭게 하는 “꿈의 방주”</h2>
+                    </div>
+
+                    <div class="space-y-4 text-sm text-slate-700 leading-relaxed text-justify">
+                        <p>
+                            아침에는 바다를 바라보며 예배를 드리고, 밤에는 별빛 아래서 찬양과 기도로 하루를 마무리합니다. 천 명이 넘는 대극장에서는 성령이 충만한 워십과 감동적인 기독교 공연이 펼쳐집니다. 선상 곳곳에서는 말씀 묵상과 비전 나눔, 꿈과 사명을 깨우는 세미나가 이어집니다. 사람들은 단순히 여행을 오는 것이 아니라, 영혼이 살아나고 인생의 방향이 바뀌는 시간을 경험하게 됩니다.
+                        </p>
+                        <p>
+                            기항지에서는 성지순례만 하는 것이 아닙니다. 지금도 살아 움직이며 부흥하는 교회를 찾아갑니다. 함께 예배드리고, 식탁을 나누고, 성장하는 교회의 DNA를 배우며 하나님이 오늘도 일하신다는 사실을 직접 체험하는 것입니다.
+                        </p>
+                        <p>
+                            무엇보다 크루즈는 최고의 공동체 훈련장입니다. 일주일 동안 같은 공간에서 먹고 웃고 대화하며 사람들은 진짜 영적 가족이 됩니다. 신실한 성도들이 믿지 않는 친구 한 사람씩 데리고 와 함께 여행하는 동안, 어떤 이는 예수를 영접하고, 어떤 이는 성령을 체험하며, 어떤 이는 평생 잊지 못할 하나님의 꿈을 발견하게 될 것입니다.
+                        </p>
+                        <p>
+                            나는 이 꿈을 이미 마음속에서 너무 선명하게 보았습니다. 그래서 이루어진 것만 같습니다. 놀라운 것은 이 이야기를 들은 사람들이 하나같이 눈빛이 달라지며 “정말 가능하겠다”고 말한다는 사실입니다.
+                        </p>
+                        <p class="font-semibold text-ocean-900 bg-ocean-50 p-3 rounded border-l-2 border-gold-500">
+                            나는 확신합니다. 크리스천 크루즈는 단순한 여행상품이 아닙니다. 사람의 영혼과 삶을 새롭게 만드는 “꿈의 방주”가 될 것입니다. 한 번 타고 내렸는데 인생이 달라지는 것입니다. 퓨처셀프가 깨어나고, 교회는 퓨처처치의 비전을 품게 됩니다.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Section 3: Call to Action (The 1% Wave) -->
+                <div class="my-6 p-6 rounded-lg bg-ocean-900 text-white relative overflow-hidden">
+                    <div class="absolute right-0 bottom-0 opacity-10">
+                        <i class="fa-solid fa-anchor text-9xl text-white transform translate-x-10 translate-y-10"></i>
+                    </div>
+                    <div class="relative z-10 space-y-3">
+                        <span class="text-xs text-gold-500 font-bold uppercase tracking-wider">Future Action Plan</span>
+                        <h3 class="font-serif text-lg font-bold text-gold-100">하나님 나라를 위한 크루즈의 정박</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            처음에는 기존 크루즈를 빌려 시작할 수도 있습니다. 그러나 언젠가는 하나님 나라를 위한 크루즈를 직접 소유하고 건조하는 꿈도 꾸게 됩니다. 전 세계 크리스천의 1%만 이 비전에 반응해도 역사는 시작됩니다.
+                        </p>
+                        <div class="pt-2 flex items-center justify-between text-xs text-gold-500 font-mono">
+                            <span>Target: Global Christians 1%</span>
+                            <span>Project: Ark of Dreams</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 2 Footer -->
+            <div class="border-t border-slate-200 pt-4 mt-6 flex justify-between items-center text-[10px] text-slate-400">
+                <span>VISION PORTFOLIO : CHAPTER 2</span>
+                <span>Page 2 / 2</span>
+            </div>
+        </article>
+    </main>
+
+</body>
+</html>
